@@ -1,7 +1,9 @@
 const Home = ()=>{
     return(
         <>
-        <h1>Home Components</h1>
+            <div className="homecontainer">
+home component
+            </div>
         </>
     )
 }
