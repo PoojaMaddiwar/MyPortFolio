@@ -32,6 +32,7 @@
   .homecontainer{
     width: 100vw;
     height: 100vh;
-    background-color: #011222;
+    /* background-color: #011222; */
+    background: linear-gradient(90deg, #011222, #021c33);
   }
   

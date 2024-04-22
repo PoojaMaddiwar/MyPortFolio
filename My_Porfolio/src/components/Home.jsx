@@ -2,8 +2,10 @@ const Home = ()=>{
     return(
         <>
             <div className="homecontainer">
-home component
+                home component
             </div>
+
+            
         </>
     )
 }
