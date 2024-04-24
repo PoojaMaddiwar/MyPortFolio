@@ -9,7 +9,7 @@ const DefaultComp = ()=>{
     return(
         <>
        
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a href="#" className="navbar-brand text-white">Portfolio.</a>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MyPorfolio">
