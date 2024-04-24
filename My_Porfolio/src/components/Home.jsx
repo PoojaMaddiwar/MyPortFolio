@@ -38,9 +38,9 @@ const Home = ()=>{
                         vel obcaecati.Rerum tempore a recusandae impedit nam!
                     </p>
                     <div className="icon-container text-white">
-                    <i class="icon fa-brands fa-facebook mx-3"></i>
-                    <i class="icon fa-brands fa-linkedin mx-3"></i>
-                    <i class="icon fa-brands fa-instagram mx-3"></i>
+                    <i className="icon fa-brands fa-facebook mx-3"></i>
+                    <i className="icon fa-brands fa-linkedin mx-3"></i>
+                    <i className="icon fa-brands fa-instagram mx-3"></i>
                     </div>
                     <a href="/Contact">Contact Me</a>
 
