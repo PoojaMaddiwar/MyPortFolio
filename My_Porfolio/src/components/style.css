@@ -40,7 +40,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  /* width: calc(100% * 2 / 3);  */
+  padding: 0px 0px 0px 80px;
 }
   .my-img{
     display: flex;
@@ -55,12 +56,33 @@
     height: 50%;
   }
 
-  @media(max-width:576px){
+  .heading{
+    color:  #004280;
+  
+  }
+  .paragrap{
+    color: rgb(164, 160, 156);
+  }
+
+ .icon-container{
+  font-size: 30px;
+ }
+ 
+  .fa-brands:hover{
+    color: rgb(43, 33, 182);
+    cursor: pointer;
+  }
+ 
+
+  @media(max-width:768px){
     .bg-containerr{
      flex-direction: column;
     }
     .myinfoContaier{
-      padding: 25px;
+      padding: 20px;
+    }
+    .text-shodow{
+      font-size: 20px;
     }
 
     .my-img img{

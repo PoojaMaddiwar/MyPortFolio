@@ -11,7 +11,7 @@ const DefaultComp = ()=>{
        
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a href="#" className="navbar-brand text-white">Portfolio.</a>
+                <a href="#" className="navbar-brand text-white">Pooja Maddiwar</a>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MyPorfolio">
                     <span className="navbar-toggler-icon"></span>
                 </button>
