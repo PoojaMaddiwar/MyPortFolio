@@ -1,6 +1,6 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./style.css";
-import {Link,Outlet} from "react-router-dom"
 const DefaultComp = ()=>{
     const [clicked,setClicked] = useState(null);
     const handelClick = (link)=>{
@@ -8,8 +8,8 @@ const DefaultComp = ()=>{
     }
     return(
         <>
-       
-        <nav className="navbar navbar-expand-lg fixed-top">
+       {/* fixed-top */}
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a href="#" className="navbar-brand text-white">Pooja Maddiwar</a>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MyPorfolio">
