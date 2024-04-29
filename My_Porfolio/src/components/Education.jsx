@@ -18,13 +18,22 @@ const Education = ()=>{
         <div className="bg-containerr">
             <div className="card_detail">
                 <div className="education col-md-6">
-                    <div className="card w-50 mt-3">
-                        <div className="card-body">
-                            <h5 className="card-title"><i className="fa fa-calendar-day"></i>Card title</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    {/* education details */}
+                    {
+                        details.map((element,index)=>{
+                            return(
+                                <div key={index} className="card w-50 mt-3">
+                                    <div className="card-body">
+                                        <h5 className="card-title"><i className="fa fa-calendar-day"></i>{"  "+element.year}</h5>
+                                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
    
-                        </div>
-                    </div>
+                                    </div>
+                                </div>
+                            )
+
+                        })
+                    }
+                    
                     
                 </div>
 

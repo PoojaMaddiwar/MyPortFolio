@@ -20,9 +20,9 @@ const DefaultComp = ()=>{
 
                 <div id="MyPorfolio" className="collapse navbar-collapse">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className={`nav-item ${clicked === "/Home" ? "active" : ""}`}>
-                                <Link to={"/Home"} className="link">
-                                    <button className="nav-link" onClick={()=> handelClick("/Home")}>Home</button>
+                            <li className={`nav-item ${clicked === "/" ? "active" : ""}`}>
+                                <Link to={"/"} className="link">
+                                    <button className="nav-link" onClick={()=> handelClick("/")}>Home</button>
                                 </Link>
                             </li>
 

@@ -27,7 +27,7 @@ const Home = ()=>{
                 <div className="myinfoContaier">
                <div className="my-info">
                     <h3 className="text-white text-shodow">Hi, I am</h3>
-                    <h1 className="text-light text-shodow">Pooja Maddiwar</h1>
+                    <h1 className="text-light text-shodow">Pooja</h1>
                     <h2 className="heading text-shodow">And I am <b><span  ref={ref1}></span></b></h2>
                     <p className="paragrap">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
