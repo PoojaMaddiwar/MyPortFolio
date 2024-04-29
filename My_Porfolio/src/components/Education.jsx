@@ -16,6 +16,7 @@ const Education = ()=>{
     return(
        <>
         <div className="bg-containerr">
+            
             <div className="card_detail">
                 <div className="education col-md-6">
                     {/* education details */}
@@ -25,7 +26,8 @@ const Education = ()=>{
                                 <div key={index} className="card w-50 mt-3">
                                     <div className="card-body">
                                         <h5 className="card-title"><i className="fa fa-calendar-day"></i>{"  "+element.year}</h5>
-                                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p className="card-text">{element.clagName}</p>
+                                        <h6 className="card-text">{element.univercity}</h6>
    
                                     </div>
                                 </div>
