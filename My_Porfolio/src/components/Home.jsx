@@ -1,4 +1,4 @@
-import bannerImage from "../assets/ai_cartoon.webp";
+import bannerImage from "../assets/hero/heroImage.png";
 import Typed from "typed.js";
 import { useEffect } from "react";
 import { useRef } from "react";
