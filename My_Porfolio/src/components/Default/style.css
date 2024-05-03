@@ -51,26 +51,5 @@
   }
 
 
-  @media(max-width:768px){
-    .bg-containerr{
-     flex-direction: column;
-    }
-    .myinfoContaier{
-      padding: 20px;
-    }
-    .text-shodow{
-      font-size: 20px;
-    }
-
-    .my-img img{
-      width: 50%;
-      height: 100%;
-    }
-
-    .my-img{
-      margin-bottom: 100px;
-    }
-  }
-  
   
   
