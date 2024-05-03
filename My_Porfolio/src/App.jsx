@@ -1,10 +1,10 @@
 import './App.css'
-import DefaultComp from './components/Default'
-import Home from './components/Home'
-import About from './components/About'
-import Education from './components/Education'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import DefaultComp from './components/Default/Default'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Education from './components/Education/Education'
+import Skills from './components/Skills/Skills'
+import Contact from './components/Contact/Contact'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App() {
