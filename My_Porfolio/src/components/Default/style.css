@@ -29,49 +29,7 @@
     color: #004280; /* Keep the hover color the same as the active color */
   }
 
-  .bg-containerr{
-    width: 100%;
-    height: 100vh;
-    /* background-color: #011222; */
-    background: linear-gradient(90deg, #011222, #021c33);
-  }
-.myinfoContaier{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /* width: calc(100% * 2 / 3);  */
-  padding: 0px 0px 0px 80px;
-}
-  .my-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-   
-  }
-
-  .my-img img{
-    width: 50%;
-    height: 50%;
-  }
-
-  .heading{
-    color:  #004280;
-  
-  }
-  .paragrap{
-    color: rgb(164, 160, 156);
-  }
-
- .icon-container{
-  font-size: 30px;
- }
  
-  .fa-brands:hover{
-    color: rgb(43, 33, 182);
-    cursor: pointer;
-  }
 
   .card_detail{
       display: flex;

@@ -1,18 +1,18 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './App.css'
-import DefaultComp from './components/Default/Default'
-import Home from './components/Home/Home'
 import About from './components/About/About'
-import Education from './components/Education/Education'
-import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import DefaultComp from './components/Default/Default'
+import Education from './components/Education/Education'
+import Home from './components/Home/Home'
+import Skills from './components/Skills/Skills'
 
 function App() {
  
 
   return (
     <>
-  
+  <div className='App'>
     <BrowserRouter>
       <Routes>
         <Route path="" element={<DefaultComp></DefaultComp>}>
@@ -24,6 +24,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </div>
     </>
   )
 }
