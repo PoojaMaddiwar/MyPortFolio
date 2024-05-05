@@ -1,8 +1,6 @@
-import React from "react";
-import  bannerImage  from "../../assets/hero/heroImage.png"
+import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { useEffect } from "react";
-import { useRef } from "react";
+import bannerImage from "../../assets/hero/heroImage.png";
 import "./home.css";
 const Home = ()=>{
 
@@ -25,7 +23,7 @@ const Home = ()=>{
 
     return(
         <>
-            <section className="container">
+            <div className="container">
                 <div className="content">
                     <h2 className="title">Hi, I'm Pooja</h2>
                     <h2 className="title">And I'm <span  ref={ref1}></span></h2>
@@ -50,7 +48,7 @@ const Home = ()=>{
                 <div className="topBlur" />
                 
 
-            </section>
+            </div>
 
             
         </>

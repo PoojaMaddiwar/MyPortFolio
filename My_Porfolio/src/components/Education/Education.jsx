@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import "./education.css"
 
 const Education = ()=>{
     const [details,setdetails] = useState([])
@@ -15,15 +16,17 @@ const Education = ()=>{
     },[])
     return(
        <>
-        <div className="bg-containerr">
+        <div className="educontainerr">
             
             <div className="card_detail">
-                <div className="education col-md-6">
+                <div className="education">
+                    <h1 className="text-white">Education</h1>
                     {/* education details */}
                     {
                         details.map((element,index)=>{
                             return(
-                                <div key={index} className="card w-50 mt-3">
+                               
+                                <div key={index} className="card mt-3">
                                     <div className="card-body">
                                         <h5 className="card-title"><i className="fa fa-calendar-day"></i>{"  "+element.year}</h5>
                                         <p className="card-text">{element.clagName}</p>
@@ -39,8 +42,9 @@ const Education = ()=>{
                     
                 </div>
 
-                <div className="experience col-md-6">
-                    <div className="card w-50">
+                <div className="experience">
+                    <h1>Experience</h1>
+                    <div className="card">
                         <div className="card-body">
                             <h5 className="card-title"><i className="fa fa-calendar-day"></i>Card title</h5>
                             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
