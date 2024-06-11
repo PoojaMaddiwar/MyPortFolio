@@ -28,9 +28,8 @@ const Home = ()=>{
                     <h2 className="title">Hi, I'm Pooja</h2>
                     <h2 className="title">And I'm <span  ref={ref1}></span></h2>
                     <p className="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Deleniti cumque molestiae atque recusandae obcaecati 
-                        quas placeat odit odio consequuntur ex!
+                        
+Seeking a challenging role as a Web Developer to leverage my web technology skills and contribute to innovative projects. Committed to continuous learning and making a significant impact in a dynamic environment.
                     </p>
                     <div className="icon-container text-white">
                         <i className="icon fa-brands fa-facebook"></i>

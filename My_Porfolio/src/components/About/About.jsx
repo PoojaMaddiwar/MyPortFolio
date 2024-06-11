@@ -1,9 +1,8 @@
-import React from "react"
-import abouImg from "../../assets/about/aboutImage.png"
-import CursorIcon from "../../assets/about/cursorIcon.png"
-import ServerIcon from "../../assets/about/serverIcon.png"
+import React from "react";
+import abouImg from "../../assets/about/aboutImage.png";
+import CursorIcon from "../../assets/about/cursorIcon.png";
 import uiIcon from "../../assets/about/uiIcon.png";
-import "./about.css"
+import "./about.css";
 const About = ()=>{
     return(
         <>

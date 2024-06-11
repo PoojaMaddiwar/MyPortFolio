@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "./education.css"
+import eduImage from "../../assets/education/aicartoon.png";
+import "./education.css";
 
 const Education = ()=>{
     const [details,setdetails] = useState([])
@@ -15,46 +16,37 @@ const Education = ()=>{
         })
     },[])
     return(
-       <>
-        <div className="educontainerr">
-            
-            <div className="card_detail">
-                <div className="education">
-                    <h1 className="text-white">Education</h1>
-                    {/* education details */}
+        <>
+            <div className="eduContainer">
+            <img className="eduImg"
+                src={eduImage} 
+                alt="my cool image" />
+                <div className="Mydetails">
+                    <div className="ExpDetails">
+                <h2 className="edutitle">Education</h2>
                     {
-                        details.map((element,index)=>{
-                            return(
-                               
-                                <div key={index} className="card mt-3">
-                                    <div className="card-body">
-                                        <h5 className="card-title"><i className="fa fa-calendar-day"></i>{"  "+element.year}</h5>
-                                        <p className="card-text">{element.clagName}</p>
-                                        <h6 className="card-text">{element.univercity}</h6>
-   
-                                    </div>
+                       details.slice().reverse().map((element,index)=>{
+                        return(
+                           <ul key={index} className="eduItems">
+                            <li className="eduItem">
+                                <div className="eduItemText">
+                                <h5><i className="fa fa-calendar-day"></i>{"  "+element.year}</h5>
+                                <p>{element.clagName}</p>
+                                <h6>{element.univercity}</h6>
                                 </div>
-                            )
+                            </li>
+                           </ul>
+                        )
 
-                        })
+                    })
                     }
-                    
-                    
-                </div>
-
-                <div className="experience">
-                    <h1>Experience</h1>
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title"><i className="fa fa-calendar-day"></i>Card title</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-   
-                        </div>
                     </div>
-                </div>
+                   </div>
+
+               
             </div>
-        </div>
         </>
+       
     )
 }
 
