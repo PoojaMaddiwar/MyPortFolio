@@ -13,8 +13,14 @@ const PortFolio = new MongoClient("mongodb+srv://admin:admin@cluster0.xiwcfcs.mo
 // get request
 app.get("/education",async(req,res)=>{
     await PortFolio.connect();
-    let arr = await PortFolio.db("my_portfolio").collection("education").find().toArray();
-    res.json(arr);
+    let arr1 = await PortFolio.db("my_portfolio").collection("education").find().toArray();
+    res.json(arr1);
+})
+
+app.get("/xyz",async(req,res)=>{
+    await PortFolio.connect();
+    let arr2 = await PortFolio.db("my_portfolio").collection("experience").find().toArray();
+    res.json(arr2);
 })
 
 
