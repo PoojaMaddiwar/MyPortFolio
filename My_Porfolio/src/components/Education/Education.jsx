@@ -18,6 +18,7 @@ const Education = ()=>{
     return(
         <>
             <div className="eduContainer">
+                <div className="parent">
             <img className="eduImg"
                 src={eduImage} 
                 alt="my cool image" />
@@ -42,7 +43,7 @@ const Education = ()=>{
                     }
                     </div>
                    </div>
-
+                   </div>
                
             </div>
         </>

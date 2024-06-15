@@ -23,7 +23,7 @@ const Home = ()=>{
 
     return(
         <>
-            <div className="container">
+            <div className="hcontainer">
                 <div className="content">
                     <h2 className="title">Hi, I'm Pooja</h2>
                     <h2 className="title">And I'm <span  ref={ref1}></span></h2>
