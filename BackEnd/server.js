@@ -1,12 +1,14 @@
 
-
+require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const {MongoClient} = require("mongodb");
+const nodemailer = require("nodemailer");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
 
 const PortFolio = new MongoClient("mongodb+srv://admin:admin@cluster0.xiwcfcs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
