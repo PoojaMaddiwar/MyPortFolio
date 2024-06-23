@@ -19,10 +19,10 @@ const Education = ()=>{
         <>
             <div className="eduContainer">
                 <div className="parent">
-            <img className="eduImg"
-                src={eduImage} 
-                alt="my cool image" />
-                <div className="Mydetails">
+                    <img className="eduImg"
+                                src={eduImage} 
+                                alt="my cool image" />
+                        <div className="Mydetails">
                     <div className="ExpDetails">
                 <h2 className="edutitle">Education</h2>
                     {

@@ -2,6 +2,7 @@ import React from "react";
 import abouImg from "../../assets/about/aboutImage.png";
 import CursorIcon from "../../assets/about/cursorIcon.png";
 import uiIcon from "../../assets/about/uiIcon.png";
+import serverIcon from '../../assets/about/serverIcon.png';
 import "./about.css";
 const About = ()=>{
     return(
@@ -35,13 +36,13 @@ const About = ()=>{
                             </p>
                         </div>
                     </li>
-                    {/* <li className="aboutItem">
-                        <img src="" alt="" />
+                    <li className="aboutItem">
+                        <img src={serverIcon} alt="" />
                         <div className="aboutItemText">
-                            <h3></h3>
-                            <p></p>
+                            <h3>Backend Developer</h3>
+                            <p>Currently learning and developing skills as a Backend Developer to build efficient and scalable server-side applications.</p>
                         </div>
-                    </li> */}
+                    </li>
                 </ul>
 
             </div>

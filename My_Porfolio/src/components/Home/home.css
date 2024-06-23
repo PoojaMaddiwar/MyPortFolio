@@ -8,10 +8,12 @@
     margin-top: 50px;
     z-index: 1;
    padding: 30px;
+   background-color:  #04152d;
+   height: 100vh;
    
 }
 
-.content{
+.hcontent{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

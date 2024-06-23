@@ -40,7 +40,7 @@ const DefaultComp = ()=>{
 
                             <li className={`nav-item ${clicked === "/Skills" ? "active" : ""}`}>
                                 <Link to={"/Skills"} className="link">
-                                    <button className="nav-link" onClick={()=> handelClick("/Skills")}>Skills</button>
+                                    <button className="nav-link" onClick={()=> handelClick("/Skills")}>Skills & Experience</button>
                                 </Link>
                             </li>
 

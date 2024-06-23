@@ -24,7 +24,7 @@ const Home = ()=>{
     return(
         <>
             <div className="hcontainer">
-                <div className="content">
+                <div className="hcontent">
                     <h2 className="title">Hi, I'm Pooja</h2>
                     <h2 className="title">And I'm <span  ref={ref1}></span></h2>
                     <p className="description">
@@ -32,9 +32,18 @@ const Home = ()=>{
 Seeking a challenging role as a Web Developer to leverage my web technology skills and contribute to innovative projects. Committed to continuous learning and making a significant impact in a dynamic environment.
                     </p>
                     <div className="icon-container text-white">
-                        <i className="icon fa-brands fa-facebook"></i>
-                        <i className="icon fa-brands fa-linkedin"></i>
-                        <i className="icon fa-brands fa-instagram"></i>
+                        <a href="" target='blank' style={{ textDecoration: 'none',color: 'inherit' }}>
+                            <i className="icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pooja-maddiwar/" target='blank' style={{ textDecoration: 'none',color: 'inherit' }}>
+                            <i className="icon fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="" target='blank' style={{ textDecoration: 'none',color: 'inherit' }}>
+                            <i className="icon fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/PoojaMaddiwar" target='blank' style={{ textDecoration: 'none',color: 'inherit' }}>
+                            <i className="icon fa-brands fa-github"></i>
+                        </a>
                     </div>
                     <a href="/Contact" className="contactBtn">Contact Me</a>
                 </div>
